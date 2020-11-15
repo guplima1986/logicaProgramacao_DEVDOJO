@@ -10,9 +10,9 @@ public class Exercicio2ControleFluxoIf {
         double salario = 4501;
 
         if (salario > 4500) {
-            System.out.println("30% do salário é R$" + salario * 30 /100);
+            System.out.println("30% do salário é R$" + salario * 0.3);
         } else {
-            System.out.println("15% do salário é R$" + salario * 30 /100);
+            System.out.println("15% do salário é R$" + salario * 0.15);
         }
 
     }
