@@ -1,11 +1,17 @@
+import java.util.Scanner;
+
 public class TorneioNatacao {
 
 
 
     public static void main(String[] args) {
 
-        String name = "Gustavo Lima";
-        int age = 11;
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Digite o nome do participante");
+        String name = scanner.next();
+        System.out.println("Digite a idade do participante");
+        int age = scanner.nextInt();
 
         if (age <= 10) {
             System.out.println(name + " participará da categoria Infantil");
