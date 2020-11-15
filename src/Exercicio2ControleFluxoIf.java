@@ -7,13 +7,16 @@ public class Exercicio2ControleFluxoIf {
     * */
     public static void main(String[] args) {
 
-        double salario = 4501;
+        double salario = 4500;
+
+        double resultado;
 
         if (salario > 4500) {
-            System.out.println("30% do salário é R$" + salario * 0.3);
+           resultado = salario * 0.3;
         } else {
-            System.out.println("15% do salário é R$" + salario * 0.15);
+            resultado = salario * 0.15;
         }
 
+        System.out.println("Resultado : " + resultado);
     }
 }
