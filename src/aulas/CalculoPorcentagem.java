@@ -1,3 +1,5 @@
+package aulas;
+
 public class CalculoPorcentagem {
 
     public static void main(String[] args) {

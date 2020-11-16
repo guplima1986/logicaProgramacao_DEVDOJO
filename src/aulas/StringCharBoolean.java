@@ -1,3 +1,5 @@
+package aulas;
+
 public class StringCharBoolean {
 
     public static void main(String[] args) {

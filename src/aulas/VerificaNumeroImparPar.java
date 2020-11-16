@@ -1,3 +1,5 @@
+package aulas;
+
 public class VerificaNumeroImparPar {
 
     public static void main(String[] args) {

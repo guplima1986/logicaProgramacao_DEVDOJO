@@ -1,3 +1,5 @@
+package aulas;
+
 import java.util.Scanner;
 
 public class DiasDaSemana {
@@ -18,6 +20,7 @@ public class DiasDaSemana {
         System.out.println("");
         int number = scanner.nextInt();
 
+        System.out.println("USANDO IF ELSE");
         if (number == 1) {
             System.out.println("Domingo");
         } else  if (number == 2) {
@@ -35,7 +38,7 @@ public class DiasDaSemana {
         } else {
             System.out.println("Número digitado é inválido");
         }
-
+        System.out.println("");
 
 
 
