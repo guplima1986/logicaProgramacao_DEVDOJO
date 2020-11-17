@@ -13,7 +13,11 @@ public class Aula29While {
         numero = leitor.nextInt();
 
         while (repeticao <= numero) {
-            System.out.println(repeticao);
+
+            if (!(repeticao % 2 == 0)) {
+                System.out.println(repeticao);
+            }
+
             repeticao = repeticao +1;
         }
 
