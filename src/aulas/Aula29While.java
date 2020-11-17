@@ -14,7 +14,7 @@ public class Aula29While {
 
         while (repeticao <= numero) {
 
-            if (!(repeticao % 2 == 0)) {
+            if (repeticao % 2 != 0) {
                 System.out.println(repeticao);
             }
 
