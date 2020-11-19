@@ -32,7 +32,9 @@ public class Aula36Arrays {
         System.out.println(notasArray[2]);
         System.out.println(notasArray[3]);
 
-
+        for (int i = 0; i < notasArray.length; i++){
+            System.out.println("Notas na posição " + i + " é " + notasArray[i]);
+        }
 
 
     }
