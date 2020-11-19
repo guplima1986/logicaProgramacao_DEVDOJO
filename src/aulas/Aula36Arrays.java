@@ -1,6 +1,7 @@
 package aulas;
 
 import java.lang.reflect.Array;
+import java.util.Scanner;
 
 public class Aula36Arrays {
 
@@ -35,6 +36,19 @@ public class Aula36Arrays {
         for (int i = 0; i < notasArray.length; i++){
             System.out.println("Notas na posição " + i + " é " + notasArray[i]);
         }
+
+        Scanner scanner = new Scanner(System.in);
+        for (int i = 0; i < notasArray.length; i++){
+            System.out.println("Alterando as notas no array");
+            System.out.println("Notas na posição " + i + " é " + notasArray[i]);
+            System.out.println("Digite a nova nota:");
+            notasArray[i] = scanner.nextInt();
+        }
+
+        for (int i = 0; i < notasArray.length; i++) {
+            System.out.println("Nova nota na posição " + i + " é " + notasArray[i]);
+        }
+
 
 
     }
